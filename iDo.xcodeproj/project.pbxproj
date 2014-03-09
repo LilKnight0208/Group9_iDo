@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0958E8A418CCDBCF0096FA84 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0958E8A318CCDBCF0096FA84 /* background.png */; };
 		09F458D718CCC2A700CA979A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F458D618CCC2A700CA979A /* Foundation.framework */; };
 		09F458D918CCC2A700CA979A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F458D818CCC2A700CA979A /* CoreGraphics.framework */; };
 		09F458DB18CCC2A700CA979A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09F458DA18CCC2A700CA979A /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		09F458FC18CCC2A800CA979A /* iDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F458FB18CCC2A800CA979A /* iDoTests.m */; };
 		09F4590818CCC2D000CA979A /* iDoMainScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */; };
 		09F4590918CCC2D000CA979A /* iDoMainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */; };
-		09F4590C18CCC4DD00CA979A /* Screen Shot 2014-03-05 at 17.07.39.png in Resources */ = {isa = PBXBuildFile; fileRef = 09F4590B18CCC4DD00CA979A /* Screen Shot 2014-03-05 at 17.07.39.png */; };
 		09F4591018CCC8C700CA979A /* iDoDetailToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */; };
 		09F4591118CCC8C700CA979A /* iDoDetailToDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */; };
 /* End PBXBuildFile section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0958E8A318CCDBCF0096FA84 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		09F458D318CCC2A700CA979A /* iDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09F458D618CCC2A700CA979A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09F458D818CCC2A700CA979A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +57,6 @@
 		09F4590518CCC2D000CA979A /* iDoMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoMainScreenViewController.h; sourceTree = "<group>"; };
 		09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoMainScreenViewController.m; sourceTree = "<group>"; };
 		09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoMainScreenViewController.xib; sourceTree = "<group>"; };
-		09F4590B18CCC4DD00CA979A /* Screen Shot 2014-03-05 at 17.07.39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2014-03-05 at 17.07.39.png"; path = "../../HinhAnh/Screen Shot 2014-03-05 at 17.07.39.png"; sourceTree = "<group>"; };
 		09F4590D18CCC8C700CA979A /* iDoDetailToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoDetailToDoListViewController.h; sourceTree = "<group>"; };
 		09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoDetailToDoListViewController.m; sourceTree = "<group>"; };
 		09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoDetailToDoListViewController.xib; sourceTree = "<group>"; };
@@ -86,10 +86,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0958E8A218CCDBCF0096FA84 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0958E8A318CCDBCF0096FA84 /* background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		09F458CA18CCC2A700CA979A = {
 			isa = PBXGroup;
 			children = (
-				09F4590A18CCC4C500CA979A /* Images */,
+				0958E8A218CCDBCF0096FA84 /* Images */,
 				09F458DC18CCC2A700CA979A /* iDo */,
 				09F458F518CCC2A800CA979A /* iDoTests */,
 				09F458D518CCC2A700CA979A /* Frameworks */,
@@ -161,14 +169,6 @@
 				09F458F818CCC2A800CA979A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		09F4590A18CCC4C500CA979A /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				09F4590B18CCC4DD00CA979A /* Screen Shot 2014-03-05 at 17.07.39.png */,
-			);
-			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09F4590C18CCC4DD00CA979A /* Screen Shot 2014-03-05 at 17.07.39.png in Resources */,
 				09F458E118CCC2A700CA979A /* InfoPlist.strings in Resources */,
+				0958E8A418CCDBCF0096FA84 /* background.png in Resources */,
 				09F458E918CCC2A700CA979A /* Images.xcassets in Resources */,
 				09F4591118CCC8C700CA979A /* iDoDetailToDoListViewController.xib in Resources */,
 				09F4590918CCC2D000CA979A /* iDoMainScreenViewController.xib in Resources */,
@@ -476,6 +476,7 @@
 				09F4590118CCC2A800CA979A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09F4590218CCC2A800CA979A /* Build configuration list for PBXNativeTarget "iDoTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +485,7 @@
 				09F4590418CCC2A800CA979A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
