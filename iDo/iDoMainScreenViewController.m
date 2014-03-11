@@ -7,6 +7,7 @@
 //
 
 #import "iDoMainScreenViewController.h"
+#import "iDoDetailToDoListViewController.h"
 
 @interface iDoMainScreenViewController ()
 
@@ -40,6 +41,8 @@
 }
 
 - (IBAction)viewToDoList:(id)sender {
+    iDoDetailToDoListViewController *toDoVC = [[iDoDetailToDoListViewController alloc] init];
+    [self presentViewController:toDoVC animated:true completion:nil];
 }
 
 

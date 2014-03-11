@@ -60,12 +60,12 @@
 		09F458F718CCC2A800CA979A /* iDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDoTests-Info.plist"; sourceTree = "<group>"; };
 		09F458F918CCC2A800CA979A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09F458FB18CCC2A800CA979A /* iDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDoTests.m; sourceTree = "<group>"; };
-		09F4590518CCC2D000CA979A /* iDoMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoMainScreenViewController.h; sourceTree = "<group>"; };
-		09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoMainScreenViewController.m; sourceTree = "<group>"; };
-		09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoMainScreenViewController.xib; sourceTree = "<group>"; };
-		09F4590D18CCC8C700CA979A /* iDoDetailToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoDetailToDoListViewController.h; sourceTree = "<group>"; };
-		09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoDetailToDoListViewController.m; sourceTree = "<group>"; };
-		09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoDetailToDoListViewController.xib; sourceTree = "<group>"; };
+		09F4590518CCC2D000CA979A /* iDoMainScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iDoMainScreenViewController.h; path = iDo/iDoMainScreenViewController.h; sourceTree = "<group>"; };
+		09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iDoMainScreenViewController.m; path = iDo/iDoMainScreenViewController.m; sourceTree = "<group>"; };
+		09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iDoMainScreenViewController.xib; path = iDo/iDoMainScreenViewController.xib; sourceTree = "<group>"; };
+		09F4590D18CCC8C700CA979A /* iDoDetailToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iDoDetailToDoListViewController.h; path = iDo/iDoDetailToDoListViewController.h; sourceTree = "<group>"; };
+		09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iDoDetailToDoListViewController.m; path = iDo/iDoDetailToDoListViewController.m; sourceTree = "<group>"; };
+		09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iDoDetailToDoListViewController.xib; path = iDo/iDoDetailToDoListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +110,39 @@
 			path = DataBase;
 			sourceTree = "<group>";
 		};
+		096B04D918CE45B6007575DA /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */,
+				09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */,
+				09F4590518CCC2D000CA979A /* iDoMainScreenViewController.h */,
+			);
+			name = MainScreen;
+			sourceTree = "<group>";
+		};
+		096B04DA18CE45D7007575DA /* DetailList */ = {
+			isa = PBXGroup;
+			children = (
+				09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */,
+				09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */,
+				09F4590D18CCC8C700CA979A /* iDoDetailToDoListViewController.h */,
+			);
+			name = DetailList;
+			sourceTree = "<group>";
+		};
+		096B04DB18CE45FB007575DA /* About */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
 		09F458CA18CCC2A700CA979A = {
 			isa = PBXGroup;
 			children = (
+				096B04DB18CE45FB007575DA /* About */,
+				096B04DA18CE45D7007575DA /* DetailList */,
+				096B04D918CE45B6007575DA /* MainScreen */,
 				096B04D818CE2C65007575DA /* DataBase */,
 				0958E8A218CCDBCF0096FA84 /* Images */,
 				09F458DC18CCC2A700CA979A /* iDo */,
@@ -147,12 +177,6 @@
 		09F458DC18CCC2A700CA979A /* iDo */ = {
 			isa = PBXGroup;
 			children = (
-				09F4590518CCC2D000CA979A /* iDoMainScreenViewController.h */,
-				09F4590618CCC2D000CA979A /* iDoMainScreenViewController.m */,
-				09F4590718CCC2D000CA979A /* iDoMainScreenViewController.xib */,
-				09F4590D18CCC8C700CA979A /* iDoDetailToDoListViewController.h */,
-				09F4590E18CCC8C700CA979A /* iDoDetailToDoListViewController.m */,
-				09F4590F18CCC8C700CA979A /* iDoDetailToDoListViewController.xib */,
 				09F458E518CCC2A700CA979A /* iDoAppDelegate.h */,
 				09F458E618CCC2A700CA979A /* iDoAppDelegate.m */,
 				09F458E818CCC2A700CA979A /* Images.xcassets */,
