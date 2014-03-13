@@ -1,26 +1,36 @@
 //
-//  iDoAppDelegate.m
+//  AppDelegate.m
 //  iDo
 //
-//  Created by Nguyen Nam Phong on 3/9/14.
+//  Created by Nguyen Nam Phong on 3/13/14.
 //  Copyright (c) 2014 Team9. All rights reserved.
 //
 
-#import "iDoAppDelegate.h"
-#import "iDoMainScreenViewController.h"
+#import "AppDelegate.h"
 
-@implementation iDoAppDelegate
+@implementation AppDelegate
+
+@synthesize window = _window;
+@synthesize navController = _navController;
+- (void)dealloc
+{
+    [_navController release];
+    [_window release];
+    [super dealloc];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    
-    iDoMainScreenViewController *mainsScreen = [[iDoMainScreenViewController alloc] init];
-    self.window.rootViewController = mainsScreen;
-    
+    RootViewController *rootView = [[RootViewController alloc]
+                                    initWithNibName:@"RootViewController"
+                                    bundle:nil];
+    self.navController  = [[UINavigationController alloc] initWithRootViewController:rootView];
+    [self.window setRootViewController:self.navController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    [rootView release];
     return YES;
 }
 

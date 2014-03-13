@@ -1,18 +1,18 @@
 //
-//  iDoDetailToDoListViewController.m
+//  AddEventToList.m
 //  iDo
 //
-//  Created by Nguyen Nam Phong on 3/9/14.
+//  Created by Nguyen Nam Phong on 3/13/14.
 //  Copyright (c) 2014 Team9. All rights reserved.
 //
 
-#import "iDoDetailToDoListViewController.h"
+#import "AddEventToList.h"
 
-@interface iDoDetailToDoListViewController ()
+@interface AddEventToList ()
 
 @end
 
-@implementation iDoDetailToDoListViewController
+@implementation AddEventToList
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,12 +27,26 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self setTitle:@"Add Event"];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
 @end

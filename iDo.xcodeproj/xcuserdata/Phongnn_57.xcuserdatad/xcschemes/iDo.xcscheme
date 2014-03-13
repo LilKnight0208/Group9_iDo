@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09F458D218CCC2A700CA979A"
+               BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
                BuildableName = "iDo.app"
                BlueprintName = "iDo"
                ReferencedContainer = "container:iDo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "09F458ED18CCC2A800CA979A"
+               BlueprintIdentifier = "097426CE18D1ACC6008B5AE9"
                BuildableName = "iDoTests.xctest"
                BlueprintName = "iDoTests"
                ReferencedContainer = "container:iDo.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09F458D218CCC2A700CA979A"
+            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09F458D218CCC2A700CA979A"
+            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "09F458D218CCC2A700CA979A"
+            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">
