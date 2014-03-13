@@ -46,6 +46,9 @@
 {
     [super viewDidLoad];
     [self setTitle:@"iDo"];
+    UIAlertView *welcome = [[UIAlertView alloc] initWithTitle:@"Welcome" message:@"In Develope" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [welcome setAlertViewStyle:UIAlertViewStyleDefault];
+    [welcome show];
 }
 
 - (void)viewDidUnload

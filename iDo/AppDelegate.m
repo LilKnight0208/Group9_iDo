@@ -27,6 +27,7 @@
                                     initWithNibName:@"RootViewController"
                                     bundle:nil];
     self.navController  = [[UINavigationController alloc] initWithRootViewController:rootView];
+    //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"barImage.png"] forBarMetrics:UIBarMetricsDefault];
     [self.window setRootViewController:self.navController];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

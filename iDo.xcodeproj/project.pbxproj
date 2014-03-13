@@ -13,7 +13,6 @@
 		097426C218D1ACC5008B5AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 097426C018D1ACC5008B5AE9 /* InfoPlist.strings */; };
 		097426C418D1ACC5008B5AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426C318D1ACC5008B5AE9 /* main.m */; };
 		097426C818D1ACC5008B5AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426C718D1ACC5008B5AE9 /* AppDelegate.m */; };
-		097426CA18D1ACC5008B5AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097426C918D1ACC5008B5AE9 /* Images.xcassets */; };
 		097426D118D1ACC6008B5AE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426D018D1ACC6008B5AE9 /* XCTest.framework */; };
 		097426D218D1ACC6008B5AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426B718D1ACC5008B5AE9 /* Foundation.framework */; };
 		097426D318D1ACC6008B5AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426BB18D1ACC5008B5AE9 /* UIKit.framework */; };
@@ -28,6 +27,8 @@
 		097426FE18D1BECD008B5AE9 /* AddEventToList.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426FC18D1BECD008B5AE9 /* AddEventToList.m */; };
 		097426FF18D1BECD008B5AE9 /* AddEventToList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097426FD18D1BECD008B5AE9 /* AddEventToList.xib */; };
 		0974270118D1D653008B5AE9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0974270018D1D653008B5AE9 /* background.png */; };
+		0974270B18D1FC74008B5AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974270A18D1FC74008B5AE9 /* Images.xcassets */; };
+		0974271918D2290E008B5AE9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0974271818D2290E008B5AE9 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +52,6 @@
 		097426C518D1ACC5008B5AE9 /* iDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDo-Prefix.pch"; sourceTree = "<group>"; };
 		097426C618D1ACC5008B5AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		097426C718D1ACC5008B5AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		097426C918D1ACC5008B5AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		097426CF18D1ACC6008B5AE9 /* iDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		097426D018D1ACC6008B5AE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		097426D818D1ACC6008B5AE9 /* iDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDoTests-Info.plist"; sourceTree = "<group>"; };
@@ -70,6 +70,8 @@
 		097426FC18D1BECD008B5AE9 /* AddEventToList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventToList.m; sourceTree = "<group>"; };
 		097426FD18D1BECD008B5AE9 /* AddEventToList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventToList.xib; sourceTree = "<group>"; };
 		0974270018D1D653008B5AE9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = "<group>"; };
+		0974270A18D1FC74008B5AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0974271818D2290E008B5AE9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +146,7 @@
 				097426ED18D1AD07008B5AE9 /* AppInfoViewController.xib */,
 				097426C618D1ACC5008B5AE9 /* AppDelegate.h */,
 				097426C718D1ACC5008B5AE9 /* AppDelegate.m */,
-				097426C918D1ACC5008B5AE9 /* Images.xcassets */,
+				0974270A18D1FC74008B5AE9 /* Images.xcassets */,
 				097426BE18D1ACC5008B5AE9 /* Supporting Files */,
 			);
 			path = iDo;
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				0974270018D1D653008B5AE9 /* background.png */,
+				0974271818D2290E008B5AE9 /* icon.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -263,9 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				097426C218D1ACC5008B5AE9 /* InfoPlist.strings in Resources */,
+				0974270B18D1FC74008B5AE9 /* Images.xcassets in Resources */,
 				0974270118D1D653008B5AE9 /* background.png in Resources */,
 				097426FF18D1BECD008B5AE9 /* AddEventToList.xib in Resources */,
-				097426CA18D1ACC5008B5AE9 /* Images.xcassets in Resources */,
+				0974271918D2290E008B5AE9 /* icon.png in Resources */,
 				097426FA18D1B949008B5AE9 /* ToDoList.xib in Resources */,
 				097426EF18D1AD07008B5AE9 /* AppInfoViewController.xib in Resources */,
 				097426EA18D1ACEA008B5AE9 /* RootViewController.xib in Resources */,
@@ -414,7 +418,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDo/iDo-Prefix.pch";
 				INFOPLIST_FILE = "iDo/iDo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -427,7 +433,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDo/iDo-Prefix.pch";
 				INFOPLIST_FILE = "iDo/iDo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
