@@ -2,17 +2,17 @@
 //  main.m
 //  iDo
 //
-//  Created by Nguyen Nam Phong on 3/13/14.
+//  Created by Nguyen Nam Phong on 3/20/14.
 //  Copyright (c) 2014 Team9. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-#import "AppDelegate.h"
+#import "iDoAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([iDoAppDelegate class]));
     }
 }

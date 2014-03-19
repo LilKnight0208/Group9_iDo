@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0500"
+   LastUpgradeVersion = "0510"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
+               BlueprintIdentifier = "092F256018DA0F7500BFED95"
                BuildableName = "iDo.app"
                BlueprintName = "iDo"
                ReferencedContainer = "container:iDo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "097426CE18D1ACC6008B5AE9"
+               BlueprintIdentifier = "092F257B18DA0F7500BFED95"
                BuildableName = "iDoTests.xctest"
                BlueprintName = "iDoTests"
                ReferencedContainer = "container:iDo.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
+            BlueprintIdentifier = "092F256018DA0F7500BFED95"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
+            BlueprintIdentifier = "092F256018DA0F7500BFED95"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "097426B318D1ACC5008B5AE9"
+            BlueprintIdentifier = "092F256018DA0F7500BFED95"
             BuildableName = "iDo.app"
             BlueprintName = "iDo"
             ReferencedContainer = "container:iDo.xcodeproj">

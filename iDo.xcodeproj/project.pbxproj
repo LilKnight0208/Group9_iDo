@@ -7,199 +7,209 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		097426B818D1ACC5008B5AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426B718D1ACC5008B5AE9 /* Foundation.framework */; };
-		097426BA18D1ACC5008B5AE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426B918D1ACC5008B5AE9 /* CoreGraphics.framework */; };
-		097426BC18D1ACC5008B5AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426BB18D1ACC5008B5AE9 /* UIKit.framework */; };
-		097426C218D1ACC5008B5AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 097426C018D1ACC5008B5AE9 /* InfoPlist.strings */; };
-		097426C418D1ACC5008B5AE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426C318D1ACC5008B5AE9 /* main.m */; };
-		097426C818D1ACC5008B5AE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426C718D1ACC5008B5AE9 /* AppDelegate.m */; };
-		097426D118D1ACC6008B5AE9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426D018D1ACC6008B5AE9 /* XCTest.framework */; };
-		097426D218D1ACC6008B5AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426B718D1ACC5008B5AE9 /* Foundation.framework */; };
-		097426D318D1ACC6008B5AE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097426BB18D1ACC5008B5AE9 /* UIKit.framework */; };
-		097426DB18D1ACC6008B5AE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 097426D918D1ACC6008B5AE9 /* InfoPlist.strings */; };
-		097426DD18D1ACC6008B5AE9 /* iDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426DC18D1ACC6008B5AE9 /* iDoTests.m */; };
-		097426E918D1ACEA008B5AE9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426E718D1ACEA008B5AE9 /* RootViewController.m */; };
-		097426EA18D1ACEA008B5AE9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097426E818D1ACEA008B5AE9 /* RootViewController.xib */; };
-		097426EE18D1AD07008B5AE9 /* AppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426EC18D1AD07008B5AE9 /* AppInfoViewController.m */; };
-		097426EF18D1AD07008B5AE9 /* AppInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097426ED18D1AD07008B5AE9 /* AppInfoViewController.xib */; };
-		097426F918D1B949008B5AE9 /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426F718D1B949008B5AE9 /* ToDoList.m */; };
-		097426FA18D1B949008B5AE9 /* ToDoList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097426F818D1B949008B5AE9 /* ToDoList.xib */; };
-		097426FE18D1BECD008B5AE9 /* AddEventToList.m in Sources */ = {isa = PBXBuildFile; fileRef = 097426FC18D1BECD008B5AE9 /* AddEventToList.m */; };
-		097426FF18D1BECD008B5AE9 /* AddEventToList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 097426FD18D1BECD008B5AE9 /* AddEventToList.xib */; };
-		0974270118D1D653008B5AE9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0974270018D1D653008B5AE9 /* background.png */; };
-		0974270B18D1FC74008B5AE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0974270A18D1FC74008B5AE9 /* Images.xcassets */; };
-		0974271918D2290E008B5AE9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0974271818D2290E008B5AE9 /* icon.png */; };
+		092F256518DA0F7500BFED95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F256418DA0F7500BFED95 /* Foundation.framework */; };
+		092F256718DA0F7500BFED95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F256618DA0F7500BFED95 /* CoreGraphics.framework */; };
+		092F256918DA0F7500BFED95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F256818DA0F7500BFED95 /* UIKit.framework */; };
+		092F256F18DA0F7500BFED95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092F256D18DA0F7500BFED95 /* InfoPlist.strings */; };
+		092F257118DA0F7500BFED95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F257018DA0F7500BFED95 /* main.m */; };
+		092F257518DA0F7500BFED95 /* iDoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F257418DA0F7500BFED95 /* iDoAppDelegate.m */; };
+		092F257718DA0F7500BFED95 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 092F257618DA0F7500BFED95 /* Images.xcassets */; };
+		092F257E18DA0F7500BFED95 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F257D18DA0F7500BFED95 /* XCTest.framework */; };
+		092F257F18DA0F7500BFED95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F256418DA0F7500BFED95 /* Foundation.framework */; };
+		092F258018DA0F7500BFED95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F256818DA0F7500BFED95 /* UIKit.framework */; };
+		092F258818DA0F7500BFED95 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092F258618DA0F7500BFED95 /* InfoPlist.strings */; };
+		092F258A18DA0F7500BFED95 /* iDoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F258918DA0F7500BFED95 /* iDoTests.m */; };
+		092F25A718DA150300BFED95 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F25A518DA150300BFED95 /* EventKit.framework */; };
+		092F25A818DA150300BFED95 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092F25A618DA150300BFED95 /* EventKitUI.framework */; };
+		096ADB8218DA184C00C43244 /* iDoRootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096ADB8018DA184C00C43244 /* iDoRootView.m */; };
+		096ADB8318DA184C00C43244 /* iDoRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8118DA184C00C43244 /* iDoRootView.xib */; };
+		096ADB8818DA185300C43244 /* iDoDetailList.m in Sources */ = {isa = PBXBuildFile; fileRef = 096ADB8618DA185300C43244 /* iDoDetailList.m */; };
+		096ADB8918DA185300C43244 /* iDoDetailList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8718DA185300C43244 /* iDoDetailList.xib */; };
+		096ADB8E18DA185700C43244 /* iDoAddNewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */; };
+		096ADB8F18DA185700C43244 /* iDoAddNewEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		097426D418D1ACC6008B5AE9 /* PBXContainerItemProxy */ = {
+		092F258118DA0F7500BFED95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 097426AC18D1ACC5008B5AE9 /* Project object */;
+			containerPortal = 092F255918DA0F7500BFED95 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 097426B318D1ACC5008B5AE9;
+			remoteGlobalIDString = 092F256018DA0F7500BFED95;
 			remoteInfo = iDo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		097426B418D1ACC5008B5AE9 /* iDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		097426B718D1ACC5008B5AE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		097426B918D1ACC5008B5AE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		097426BB18D1ACC5008B5AE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		097426BF18D1ACC5008B5AE9 /* iDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDo-Info.plist"; sourceTree = "<group>"; };
-		097426C118D1ACC5008B5AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		097426C318D1ACC5008B5AE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		097426C518D1ACC5008B5AE9 /* iDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDo-Prefix.pch"; sourceTree = "<group>"; };
-		097426C618D1ACC5008B5AE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		097426C718D1ACC5008B5AE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		097426CF18D1ACC6008B5AE9 /* iDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		097426D018D1ACC6008B5AE9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		097426D818D1ACC6008B5AE9 /* iDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDoTests-Info.plist"; sourceTree = "<group>"; };
-		097426DA18D1ACC6008B5AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		097426DC18D1ACC6008B5AE9 /* iDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDoTests.m; sourceTree = "<group>"; };
-		097426E618D1ACEA008B5AE9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		097426E718D1ACEA008B5AE9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		097426E818D1ACEA008B5AE9 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		097426EB18D1AD07008B5AE9 /* AppInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppInfoViewController.h; sourceTree = "<group>"; };
-		097426EC18D1AD07008B5AE9 /* AppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppInfoViewController.m; sourceTree = "<group>"; };
-		097426ED18D1AD07008B5AE9 /* AppInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppInfoViewController.xib; sourceTree = "<group>"; };
-		097426F618D1B949008B5AE9 /* ToDoList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
-		097426F718D1B949008B5AE9 /* ToDoList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
-		097426F818D1B949008B5AE9 /* ToDoList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToDoList.xib; sourceTree = "<group>"; };
-		097426FB18D1BECD008B5AE9 /* AddEventToList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEventToList.h; sourceTree = "<group>"; };
-		097426FC18D1BECD008B5AE9 /* AddEventToList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEventToList.m; sourceTree = "<group>"; };
-		097426FD18D1BECD008B5AE9 /* AddEventToList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEventToList.xib; sourceTree = "<group>"; };
-		0974270018D1D653008B5AE9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Images/background.png; sourceTree = "<group>"; };
-		0974270A18D1FC74008B5AE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0974271818D2290E008B5AE9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Images/icon.png; sourceTree = "<group>"; };
+		092F256118DA0F7500BFED95 /* iDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F256418DA0F7500BFED95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		092F256618DA0F7500BFED95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		092F256818DA0F7500BFED95 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		092F256C18DA0F7500BFED95 /* iDo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDo-Info.plist"; sourceTree = "<group>"; };
+		092F256E18DA0F7500BFED95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092F257018DA0F7500BFED95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092F257218DA0F7500BFED95 /* iDo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iDo-Prefix.pch"; sourceTree = "<group>"; };
+		092F257318DA0F7500BFED95 /* iDoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iDoAppDelegate.h; sourceTree = "<group>"; };
+		092F257418DA0F7500BFED95 /* iDoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDoAppDelegate.m; sourceTree = "<group>"; };
+		092F257618DA0F7500BFED95 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		092F257C18DA0F7500BFED95 /* iDoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092F257D18DA0F7500BFED95 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		092F258518DA0F7500BFED95 /* iDoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iDoTests-Info.plist"; sourceTree = "<group>"; };
+		092F258718DA0F7500BFED95 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092F258918DA0F7500BFED95 /* iDoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iDoTests.m; sourceTree = "<group>"; };
+		092F25A518DA150300BFED95 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		092F25A618DA150300BFED95 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		096ADB7F18DA184C00C43244 /* iDoRootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoRootView.h; sourceTree = "<group>"; };
+		096ADB8018DA184C00C43244 /* iDoRootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoRootView.m; sourceTree = "<group>"; };
+		096ADB8118DA184C00C43244 /* iDoRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoRootView.xib; sourceTree = "<group>"; };
+		096ADB8518DA185300C43244 /* iDoDetailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoDetailList.h; sourceTree = "<group>"; };
+		096ADB8618DA185300C43244 /* iDoDetailList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoDetailList.m; sourceTree = "<group>"; };
+		096ADB8718DA185300C43244 /* iDoDetailList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoDetailList.xib; sourceTree = "<group>"; };
+		096ADB8B18DA185700C43244 /* iDoAddNewEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoAddNewEvent.h; sourceTree = "<group>"; };
+		096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoAddNewEvent.m; sourceTree = "<group>"; };
+		096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoAddNewEvent.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		097426B118D1ACC5008B5AE9 /* Frameworks */ = {
+		092F255E18DA0F7500BFED95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426BA18D1ACC5008B5AE9 /* CoreGraphics.framework in Frameworks */,
-				097426BC18D1ACC5008B5AE9 /* UIKit.framework in Frameworks */,
-				097426B818D1ACC5008B5AE9 /* Foundation.framework in Frameworks */,
+				092F25A718DA150300BFED95 /* EventKit.framework in Frameworks */,
+				092F25A818DA150300BFED95 /* EventKitUI.framework in Frameworks */,
+				092F256718DA0F7500BFED95 /* CoreGraphics.framework in Frameworks */,
+				092F256918DA0F7500BFED95 /* UIKit.framework in Frameworks */,
+				092F256518DA0F7500BFED95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		097426CC18D1ACC6008B5AE9 /* Frameworks */ = {
+		092F257918DA0F7500BFED95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426D118D1ACC6008B5AE9 /* XCTest.framework in Frameworks */,
-				097426D318D1ACC6008B5AE9 /* UIKit.framework in Frameworks */,
-				097426D218D1ACC6008B5AE9 /* Foundation.framework in Frameworks */,
+				092F257E18DA0F7500BFED95 /* XCTest.framework in Frameworks */,
+				092F258018DA0F7500BFED95 /* UIKit.framework in Frameworks */,
+				092F257F18DA0F7500BFED95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		097426AB18D1ACC5008B5AE9 = {
+		092F255818DA0F7500BFED95 = {
 			isa = PBXGroup;
 			children = (
-				097426F018D1B0DF008B5AE9 /* Images */,
-				097426BD18D1ACC5008B5AE9 /* iDo */,
-				097426D618D1ACC6008B5AE9 /* iDoTests */,
-				097426B618D1ACC5008B5AE9 /* Frameworks */,
-				097426B518D1ACC5008B5AE9 /* Products */,
+				096ADB8A18DA185700C43244 /* AddNewEvent */,
+				096ADB8418DA185300C43244 /* DetailList */,
+				096ADB7E18DA184C00C43244 /* RootView */,
+				092F256A18DA0F7500BFED95 /* iDo */,
+				092F258318DA0F7500BFED95 /* iDoTests */,
+				092F256318DA0F7500BFED95 /* Frameworks */,
+				092F256218DA0F7500BFED95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		097426B518D1ACC5008B5AE9 /* Products */ = {
+		092F256218DA0F7500BFED95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				097426B418D1ACC5008B5AE9 /* iDo.app */,
-				097426CF18D1ACC6008B5AE9 /* iDoTests.xctest */,
+				092F256118DA0F7500BFED95 /* iDo.app */,
+				092F257C18DA0F7500BFED95 /* iDoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		097426B618D1ACC5008B5AE9 /* Frameworks */ = {
+		092F256318DA0F7500BFED95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				097426B718D1ACC5008B5AE9 /* Foundation.framework */,
-				097426B918D1ACC5008B5AE9 /* CoreGraphics.framework */,
-				097426BB18D1ACC5008B5AE9 /* UIKit.framework */,
-				097426D018D1ACC6008B5AE9 /* XCTest.framework */,
+				092F25A518DA150300BFED95 /* EventKit.framework */,
+				092F25A618DA150300BFED95 /* EventKitUI.framework */,
+				092F256418DA0F7500BFED95 /* Foundation.framework */,
+				092F256618DA0F7500BFED95 /* CoreGraphics.framework */,
+				092F256818DA0F7500BFED95 /* UIKit.framework */,
+				092F257D18DA0F7500BFED95 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		097426BD18D1ACC5008B5AE9 /* iDo */ = {
+		092F256A18DA0F7500BFED95 /* iDo */ = {
 			isa = PBXGroup;
 			children = (
-				097426F618D1B949008B5AE9 /* ToDoList.h */,
-				097426F718D1B949008B5AE9 /* ToDoList.m */,
-				097426FB18D1BECD008B5AE9 /* AddEventToList.h */,
-				097426FC18D1BECD008B5AE9 /* AddEventToList.m */,
-				097426FD18D1BECD008B5AE9 /* AddEventToList.xib */,
-				097426F818D1B949008B5AE9 /* ToDoList.xib */,
-				097426E618D1ACEA008B5AE9 /* RootViewController.h */,
-				097426E718D1ACEA008B5AE9 /* RootViewController.m */,
-				097426E818D1ACEA008B5AE9 /* RootViewController.xib */,
-				097426EB18D1AD07008B5AE9 /* AppInfoViewController.h */,
-				097426EC18D1AD07008B5AE9 /* AppInfoViewController.m */,
-				097426ED18D1AD07008B5AE9 /* AppInfoViewController.xib */,
-				097426C618D1ACC5008B5AE9 /* AppDelegate.h */,
-				097426C718D1ACC5008B5AE9 /* AppDelegate.m */,
-				0974270A18D1FC74008B5AE9 /* Images.xcassets */,
-				097426BE18D1ACC5008B5AE9 /* Supporting Files */,
+				092F257318DA0F7500BFED95 /* iDoAppDelegate.h */,
+				092F257418DA0F7500BFED95 /* iDoAppDelegate.m */,
+				092F257618DA0F7500BFED95 /* Images.xcassets */,
+				092F256B18DA0F7500BFED95 /* Supporting Files */,
 			);
 			path = iDo;
 			sourceTree = "<group>";
 		};
-		097426BE18D1ACC5008B5AE9 /* Supporting Files */ = {
+		092F256B18DA0F7500BFED95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				097426BF18D1ACC5008B5AE9 /* iDo-Info.plist */,
-				097426C018D1ACC5008B5AE9 /* InfoPlist.strings */,
-				097426C318D1ACC5008B5AE9 /* main.m */,
-				097426C518D1ACC5008B5AE9 /* iDo-Prefix.pch */,
+				092F256C18DA0F7500BFED95 /* iDo-Info.plist */,
+				092F256D18DA0F7500BFED95 /* InfoPlist.strings */,
+				092F257018DA0F7500BFED95 /* main.m */,
+				092F257218DA0F7500BFED95 /* iDo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		097426D618D1ACC6008B5AE9 /* iDoTests */ = {
+		092F258318DA0F7500BFED95 /* iDoTests */ = {
 			isa = PBXGroup;
 			children = (
-				097426DC18D1ACC6008B5AE9 /* iDoTests.m */,
-				097426D718D1ACC6008B5AE9 /* Supporting Files */,
+				092F258918DA0F7500BFED95 /* iDoTests.m */,
+				092F258418DA0F7500BFED95 /* Supporting Files */,
 			);
 			path = iDoTests;
 			sourceTree = "<group>";
 		};
-		097426D718D1ACC6008B5AE9 /* Supporting Files */ = {
+		092F258418DA0F7500BFED95 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				097426D818D1ACC6008B5AE9 /* iDoTests-Info.plist */,
-				097426D918D1ACC6008B5AE9 /* InfoPlist.strings */,
+				092F258518DA0F7500BFED95 /* iDoTests-Info.plist */,
+				092F258618DA0F7500BFED95 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		097426F018D1B0DF008B5AE9 /* Images */ = {
+		096ADB7E18DA184C00C43244 /* RootView */ = {
 			isa = PBXGroup;
 			children = (
-				0974270018D1D653008B5AE9 /* background.png */,
-				0974271818D2290E008B5AE9 /* icon.png */,
+				096ADB7F18DA184C00C43244 /* iDoRootView.h */,
+				096ADB8018DA184C00C43244 /* iDoRootView.m */,
+				096ADB8118DA184C00C43244 /* iDoRootView.xib */,
 			);
-			name = Images;
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		096ADB8418DA185300C43244 /* DetailList */ = {
+			isa = PBXGroup;
+			children = (
+				096ADB8518DA185300C43244 /* iDoDetailList.h */,
+				096ADB8618DA185300C43244 /* iDoDetailList.m */,
+				096ADB8718DA185300C43244 /* iDoDetailList.xib */,
+			);
+			path = DetailList;
+			sourceTree = "<group>";
+		};
+		096ADB8A18DA185700C43244 /* AddNewEvent */ = {
+			isa = PBXGroup;
+			children = (
+				096ADB8B18DA185700C43244 /* iDoAddNewEvent.h */,
+				096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */,
+				096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */,
+			);
+			path = AddNewEvent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		097426B318D1ACC5008B5AE9 /* iDo */ = {
+		092F256018DA0F7500BFED95 /* iDo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 097426E018D1ACC6008B5AE9 /* Build configuration list for PBXNativeTarget "iDo" */;
+			buildConfigurationList = 092F258D18DA0F7500BFED95 /* Build configuration list for PBXNativeTarget "iDo" */;
 			buildPhases = (
-				097426B018D1ACC5008B5AE9 /* Sources */,
-				097426B118D1ACC5008B5AE9 /* Frameworks */,
-				097426B218D1ACC5008B5AE9 /* Resources */,
+				092F255D18DA0F7500BFED95 /* Sources */,
+				092F255E18DA0F7500BFED95 /* Frameworks */,
+				092F255F18DA0F7500BFED95 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -207,130 +217,127 @@
 			);
 			name = iDo;
 			productName = iDo;
-			productReference = 097426B418D1ACC5008B5AE9 /* iDo.app */;
+			productReference = 092F256118DA0F7500BFED95 /* iDo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		097426CE18D1ACC6008B5AE9 /* iDoTests */ = {
+		092F257B18DA0F7500BFED95 /* iDoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 097426E318D1ACC6008B5AE9 /* Build configuration list for PBXNativeTarget "iDoTests" */;
+			buildConfigurationList = 092F259018DA0F7500BFED95 /* Build configuration list for PBXNativeTarget "iDoTests" */;
 			buildPhases = (
-				097426CB18D1ACC6008B5AE9 /* Sources */,
-				097426CC18D1ACC6008B5AE9 /* Frameworks */,
-				097426CD18D1ACC6008B5AE9 /* Resources */,
+				092F257818DA0F7500BFED95 /* Sources */,
+				092F257918DA0F7500BFED95 /* Frameworks */,
+				092F257A18DA0F7500BFED95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				097426D518D1ACC6008B5AE9 /* PBXTargetDependency */,
+				092F258218DA0F7500BFED95 /* PBXTargetDependency */,
 			);
 			name = iDoTests;
 			productName = iDoTests;
-			productReference = 097426CF18D1ACC6008B5AE9 /* iDoTests.xctest */;
+			productReference = 092F257C18DA0F7500BFED95 /* iDoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		097426AC18D1ACC5008B5AE9 /* Project object */ = {
+		092F255918DA0F7500BFED95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				CLASSPREFIX = iDo;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Team9;
 				TargetAttributes = {
-					097426CE18D1ACC6008B5AE9 = {
-						TestTargetID = 097426B318D1ACC5008B5AE9;
+					092F257B18DA0F7500BFED95 = {
+						TestTargetID = 092F256018DA0F7500BFED95;
 					};
 				};
 			};
-			buildConfigurationList = 097426AF18D1ACC5008B5AE9 /* Build configuration list for PBXProject "iDo" */;
+			buildConfigurationList = 092F255C18DA0F7500BFED95 /* Build configuration list for PBXProject "iDo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 097426AB18D1ACC5008B5AE9;
-			productRefGroup = 097426B518D1ACC5008B5AE9 /* Products */;
+			mainGroup = 092F255818DA0F7500BFED95;
+			productRefGroup = 092F256218DA0F7500BFED95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				097426B318D1ACC5008B5AE9 /* iDo */,
-				097426CE18D1ACC6008B5AE9 /* iDoTests */,
+				092F256018DA0F7500BFED95 /* iDo */,
+				092F257B18DA0F7500BFED95 /* iDoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		097426B218D1ACC5008B5AE9 /* Resources */ = {
+		092F255F18DA0F7500BFED95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426C218D1ACC5008B5AE9 /* InfoPlist.strings in Resources */,
-				0974270B18D1FC74008B5AE9 /* Images.xcassets in Resources */,
-				0974270118D1D653008B5AE9 /* background.png in Resources */,
-				097426FF18D1BECD008B5AE9 /* AddEventToList.xib in Resources */,
-				0974271918D2290E008B5AE9 /* icon.png in Resources */,
-				097426FA18D1B949008B5AE9 /* ToDoList.xib in Resources */,
-				097426EF18D1AD07008B5AE9 /* AppInfoViewController.xib in Resources */,
-				097426EA18D1ACEA008B5AE9 /* RootViewController.xib in Resources */,
+				092F256F18DA0F7500BFED95 /* InfoPlist.strings in Resources */,
+				096ADB8F18DA185700C43244 /* iDoAddNewEvent.xib in Resources */,
+				096ADB8918DA185300C43244 /* iDoDetailList.xib in Resources */,
+				096ADB8318DA184C00C43244 /* iDoRootView.xib in Resources */,
+				092F257718DA0F7500BFED95 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		097426CD18D1ACC6008B5AE9 /* Resources */ = {
+		092F257A18DA0F7500BFED95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426DB18D1ACC6008B5AE9 /* InfoPlist.strings in Resources */,
+				092F258818DA0F7500BFED95 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		097426B018D1ACC5008B5AE9 /* Sources */ = {
+		092F255D18DA0F7500BFED95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426C818D1ACC5008B5AE9 /* AppDelegate.m in Sources */,
-				097426F918D1B949008B5AE9 /* ToDoList.m in Sources */,
-				097426C418D1ACC5008B5AE9 /* main.m in Sources */,
-				097426EE18D1AD07008B5AE9 /* AppInfoViewController.m in Sources */,
-				097426E918D1ACEA008B5AE9 /* RootViewController.m in Sources */,
-				097426FE18D1BECD008B5AE9 /* AddEventToList.m in Sources */,
+				092F257118DA0F7500BFED95 /* main.m in Sources */,
+				096ADB8818DA185300C43244 /* iDoDetailList.m in Sources */,
+				096ADB8218DA184C00C43244 /* iDoRootView.m in Sources */,
+				096ADB8E18DA185700C43244 /* iDoAddNewEvent.m in Sources */,
+				092F257518DA0F7500BFED95 /* iDoAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		097426CB18D1ACC6008B5AE9 /* Sources */ = {
+		092F257818DA0F7500BFED95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				097426DD18D1ACC6008B5AE9 /* iDoTests.m in Sources */,
+				092F258A18DA0F7500BFED95 /* iDoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		097426D518D1ACC6008B5AE9 /* PBXTargetDependency */ = {
+		092F258218DA0F7500BFED95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 097426B318D1ACC5008B5AE9 /* iDo */;
-			targetProxy = 097426D418D1ACC6008B5AE9 /* PBXContainerItemProxy */;
+			target = 092F256018DA0F7500BFED95 /* iDo */;
+			targetProxy = 092F258118DA0F7500BFED95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		097426C018D1ACC5008B5AE9 /* InfoPlist.strings */ = {
+		092F256D18DA0F7500BFED95 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				097426C118D1ACC5008B5AE9 /* en */,
+				092F256E18DA0F7500BFED95 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		097426D918D1ACC6008B5AE9 /* InfoPlist.strings */ = {
+		092F258618DA0F7500BFED95 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				097426DA18D1ACC6008B5AE9 /* en */,
+				092F258718DA0F7500BFED95 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -338,11 +345,10 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		097426DE18D1ACC6008B5AE9 /* Debug */ = {
+		092F258B18DA0F7500BFED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -368,20 +374,19 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		097426DF18D1ACC6008B5AE9 /* Release */ = {
+		092F258C18DA0F7500BFED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -401,16 +406,16 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		097426E118D1ACC6008B5AE9 /* Debug */ = {
+		092F258E18DA0F7500BFED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -418,14 +423,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDo/iDo-Prefix.pch";
 				INFOPLIST_FILE = "iDo/iDo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		097426E218D1ACC6008B5AE9 /* Release */ = {
+		092F258F18DA0F7500BFED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -433,17 +438,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iDo/iDo-Prefix.pch";
 				INFOPLIST_FILE = "iDo/iDo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		097426E418D1ACC6008B5AE9 /* Debug */ = {
+		092F259118DA0F7500BFED95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDo.app/iDo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -463,10 +467,9 @@
 			};
 			name = Debug;
 		};
-		097426E518D1ACC6008B5AE9 /* Release */ = {
+		092F259218DA0F7500BFED95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iDo.app/iDo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -485,34 +488,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		097426AF18D1ACC5008B5AE9 /* Build configuration list for PBXProject "iDo" */ = {
+		092F255C18DA0F7500BFED95 /* Build configuration list for PBXProject "iDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				097426DE18D1ACC6008B5AE9 /* Debug */,
-				097426DF18D1ACC6008B5AE9 /* Release */,
+				092F258B18DA0F7500BFED95 /* Debug */,
+				092F258C18DA0F7500BFED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		097426E018D1ACC6008B5AE9 /* Build configuration list for PBXNativeTarget "iDo" */ = {
+		092F258D18DA0F7500BFED95 /* Build configuration list for PBXNativeTarget "iDo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				097426E118D1ACC6008B5AE9 /* Debug */,
-				097426E218D1ACC6008B5AE9 /* Release */,
+				092F258E18DA0F7500BFED95 /* Debug */,
+				092F258F18DA0F7500BFED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		097426E318D1ACC6008B5AE9 /* Build configuration list for PBXNativeTarget "iDoTests" */ = {
+		092F259018DA0F7500BFED95 /* Build configuration list for PBXNativeTarget "iDoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				097426E418D1ACC6008B5AE9 /* Debug */,
-				097426E518D1ACC6008B5AE9 /* Release */,
+				092F259118DA0F7500BFED95 /* Debug */,
+				092F259218DA0F7500BFED95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 097426AC18D1ACC5008B5AE9 /* Project object */;
+	rootObject = 092F255918DA0F7500BFED95 /* Project object */;
 }

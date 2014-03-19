@@ -1,21 +1,21 @@
 //
-//  AppDelegate.m
+//  iDoAppDelegate.m
 //  iDo
 //
-//  Created by Nguyen Nam Phong on 3/13/14.
+//  Created by Nguyen Nam Phong on 3/20/14.
 //  Copyright (c) 2014 Team9. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "iDoAppDelegate.h"
 
-@implementation AppDelegate
+@implementation iDoAppDelegate
 
 @synthesize window = _window;
 @synthesize navController = _navController;
 - (void)dealloc
 {
-    [_navController release];
     [_window release];
+    [_navController release];
     [super dealloc];
 }
 
@@ -23,15 +23,12 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    RootViewController *rootView = [[RootViewController alloc]
-                                    initWithNibName:@"RootViewController"
-                                    bundle:nil];
-    self.navController  = [[UINavigationController alloc] initWithRootViewController:rootView];
-    //[[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"barImage.png"] forBarMetrics:UIBarMetricsDefault];
+    iDoRootView *rootView = [[iDoRootView alloc] initWithNibName:@"iDoRootView" bundle:nil];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:rootView];
     [self.window setRootViewController:self.navController];
     self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     [rootView release];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
