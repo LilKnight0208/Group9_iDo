@@ -25,8 +25,10 @@
 		096ADB8318DA184C00C43244 /* iDoRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8118DA184C00C43244 /* iDoRootView.xib */; };
 		096ADB8818DA185300C43244 /* iDoDetailList.m in Sources */ = {isa = PBXBuildFile; fileRef = 096ADB8618DA185300C43244 /* iDoDetailList.m */; };
 		096ADB8918DA185300C43244 /* iDoDetailList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8718DA185300C43244 /* iDoDetailList.xib */; };
-		096ADB8E18DA185700C43244 /* iDoAddNewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */; };
-		096ADB8F18DA185700C43244 /* iDoAddNewEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */; };
+		09B8254D18DB378600C9F3E6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B8254C18DB378600C9F3E6 /* CoreData.framework */; };
+		09B8255218DB37DE00C9F3E6 /* iDoAddNewEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B8255018DB37DE00C9F3E6 /* iDoAddNewEvent.m */; };
+		09B8255318DB37DE00C9F3E6 /* iDoAddNewEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B8255118DB37DE00C9F3E6 /* iDoAddNewEvent.xib */; };
+		09B8255718DB37E400C9F3E6 /* iDoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B8255618DB37E400C9F3E6 /* iDoModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +66,12 @@
 		096ADB8518DA185300C43244 /* iDoDetailList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoDetailList.h; sourceTree = "<group>"; };
 		096ADB8618DA185300C43244 /* iDoDetailList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoDetailList.m; sourceTree = "<group>"; };
 		096ADB8718DA185300C43244 /* iDoDetailList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoDetailList.xib; sourceTree = "<group>"; };
-		096ADB8B18DA185700C43244 /* iDoAddNewEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoAddNewEvent.h; sourceTree = "<group>"; };
-		096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoAddNewEvent.m; sourceTree = "<group>"; };
-		096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoAddNewEvent.xib; sourceTree = "<group>"; };
+		09B8254C18DB378600C9F3E6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09B8254F18DB37DE00C9F3E6 /* iDoAddNewEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoAddNewEvent.h; sourceTree = "<group>"; };
+		09B8255018DB37DE00C9F3E6 /* iDoAddNewEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoAddNewEvent.m; sourceTree = "<group>"; };
+		09B8255118DB37DE00C9F3E6 /* iDoAddNewEvent.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iDoAddNewEvent.xib; sourceTree = "<group>"; };
+		09B8255518DB37E400C9F3E6 /* iDoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iDoModel.h; sourceTree = "<group>"; };
+		09B8255618DB37E400C9F3E6 /* iDoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iDoModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B8254D18DB378600C9F3E6 /* CoreData.framework in Frameworks */,
 				092F25A718DA150300BFED95 /* EventKit.framework in Frameworks */,
 				092F25A818DA150300BFED95 /* EventKitUI.framework in Frameworks */,
 				092F256718DA0F7500BFED95 /* CoreGraphics.framework in Frameworks */,
@@ -98,7 +104,8 @@
 		092F255818DA0F7500BFED95 = {
 			isa = PBXGroup;
 			children = (
-				096ADB8A18DA185700C43244 /* AddNewEvent */,
+				09B8255418DB37E400C9F3E6 /* Model */,
+				09B8254E18DB37DE00C9F3E6 /* AddNewEvent */,
 				096ADB8418DA185300C43244 /* DetailList */,
 				096ADB7E18DA184C00C43244 /* RootView */,
 				092F256A18DA0F7500BFED95 /* iDo */,
@@ -120,6 +127,7 @@
 		092F256318DA0F7500BFED95 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09B8254C18DB378600C9F3E6 /* CoreData.framework */,
 				092F25A518DA150300BFED95 /* EventKit.framework */,
 				092F25A618DA150300BFED95 /* EventKitUI.framework */,
 				092F256418DA0F7500BFED95 /* Foundation.framework */,
@@ -190,14 +198,23 @@
 			path = DetailList;
 			sourceTree = "<group>";
 		};
-		096ADB8A18DA185700C43244 /* AddNewEvent */ = {
+		09B8254E18DB37DE00C9F3E6 /* AddNewEvent */ = {
 			isa = PBXGroup;
 			children = (
-				096ADB8B18DA185700C43244 /* iDoAddNewEvent.h */,
-				096ADB8C18DA185700C43244 /* iDoAddNewEvent.m */,
-				096ADB8D18DA185700C43244 /* iDoAddNewEvent.xib */,
+				09B8254F18DB37DE00C9F3E6 /* iDoAddNewEvent.h */,
+				09B8255018DB37DE00C9F3E6 /* iDoAddNewEvent.m */,
+				09B8255118DB37DE00C9F3E6 /* iDoAddNewEvent.xib */,
 			);
 			path = AddNewEvent;
+			sourceTree = "<group>";
+		};
+		09B8255418DB37E400C9F3E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				09B8255518DB37E400C9F3E6 /* iDoModel.h */,
+				09B8255618DB37E400C9F3E6 /* iDoModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				092F256F18DA0F7500BFED95 /* InfoPlist.strings in Resources */,
-				096ADB8F18DA185700C43244 /* iDoAddNewEvent.xib in Resources */,
+				09B8255318DB37DE00C9F3E6 /* iDoAddNewEvent.xib in Resources */,
 				096ADB8918DA185300C43244 /* iDoDetailList.xib in Resources */,
 				096ADB8318DA184C00C43244 /* iDoRootView.xib in Resources */,
 				092F257718DA0F7500BFED95 /* Images.xcassets in Resources */,
@@ -302,8 +319,9 @@
 				092F257118DA0F7500BFED95 /* main.m in Sources */,
 				096ADB8818DA185300C43244 /* iDoDetailList.m in Sources */,
 				096ADB8218DA184C00C43244 /* iDoRootView.m in Sources */,
-				096ADB8E18DA185700C43244 /* iDoAddNewEvent.m in Sources */,
+				09B8255718DB37E400C9F3E6 /* iDoModel.m in Sources */,
 				092F257518DA0F7500BFED95 /* iDoAppDelegate.m in Sources */,
+				09B8255218DB37DE00C9F3E6 /* iDoAddNewEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

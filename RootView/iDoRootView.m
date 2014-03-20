@@ -14,11 +14,11 @@
 
 @implementation iDoRootView
 
-- (void)addNewEvent
+-(void)addNewEvent
 {
-    UITableViewController *addNewEvent = [[iDoAddNewEvent alloc] initWithNibName:@"iDoAddNewEvent" bundle:nil];
-    [[self navigationController] pushViewController:addNewEvent animated:YES];
-    [addNewEvent release];
+    UITableViewController *addEvent = [[iDoAddNewEvent alloc] initWithNibName:@"iDoAddNewEvent" bundle:nil];
+    [[self navigationController] pushViewController:addEvent animated:YES];
+    [addEvent release];
 }
 
 - (void)viewDidLoad
@@ -33,6 +33,11 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.myTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStyleGrouped];
+    self.myTableView.dataSource = self;
+    self.myTableView.delegate = self;
+    self.myTableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    [self.view addSubview:self.myTableView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -46,40 +51,46 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+    self.myTableView = nil;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    return YES;
 }
 
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-#warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return 20;
 }
 
-/*
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+//    
+//    // Configure the cell...
+//    
+//    return cell;
+    UITableViewCell *result = nil;
+    static NSString *CellIdentifier = @"CellIdentifier";
+    result = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if (result == nil) {
+        result = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+    }
+    result.textLabel.text = [[NSString alloc] initWithFormat:@"Cell %ld", (long)indexPath.row];
+    return  result;
 }
-*/
+
 
 /*
 // Override to support conditional editing of the table view.

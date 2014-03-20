@@ -13,5 +13,6 @@
 @interface iDoRootView : UITableViewController
 
 @property (strong, nonatomic) iDoAddNewEvent *addNewEvent;
+@property (nonatomic, strong) UITableView *myTableView;
 
 @end
